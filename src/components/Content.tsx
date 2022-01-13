@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { GenreResponseProps } from "../App";
+import { List, ListRowRenderer, AutoSizer } from 'react-virtualized'
 import { api } from "../services/api";
 import { MovieCard } from "./MovieCard";
 
